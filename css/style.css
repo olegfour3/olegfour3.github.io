@@ -163,3 +163,8 @@
 .post{
 	position: relative;
 }
+
+.title{
+	overflow: hidden;
+	position: relative;
+}
