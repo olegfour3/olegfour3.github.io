@@ -1,4 +1,4 @@
-$(function() {
+$(function(){
 
     $('#carousel-ex').carousel({
         ride: 'carousel',
