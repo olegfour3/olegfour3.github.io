@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Hyperactive Panda - Portfolio of graphic designer">
+  <meta name="keywords" content="hyperactive_panda, hyperactive, panda, portfolio, graphic, designer">
+  <meta name="author" content="Hyperactive Panda">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Hyperactive Panda - Portfolio of graphic designer</title>
+  <link rel="icon" href="img/core-img/logo.png">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+
+
+  <style>
+
+    @import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+    @media (max-width: 1340px){
+        .title h1{
+            font-size: 700%;
+        }
+        .block h2{
+            font-size: 150%;
+        }
+        .block p{
+            font-size: 100%;
+        }
+    }
+    @media (min-width: 649px) and (max-width: 990px){
+        .title h1{
+            font-size: 500%;
+        }
+        .block h2{
+            font-size: 130%;
+        }
+        .block p{
+            font-size: 100%;
+        }
+        .posts{
+            grid-template-columns: auto auto;
+        }
+    }
+    @media (max-width: 649px){
+        footer{
+            max-height: 100%;
+        }
+        .title{
+            height: 35vh;
+        }
+        .title h1{
+            margin-top: 20%;
+            font-size: 240%;
+        }
+        .post img{
+	        height: 120%;
+	        width: 120%;
+        }
+        .block h2{
+            font-size: 150%;
+        }
+        .block p{
+            font-size: 100%;
+        }
+        .posts{
+            grid-template-columns: auto;
+        }
+    }
+    @media (max-width: 330px){
+        .block h2{
+            margin-top: 20%;
+            font-size: 120%;
+        }
+        .block p{
+            font-size: 80%;
+        }
+        .posts{
+            grid-template-columns: auto;
+        }
+    }
+   
+  </style>
+</head>
+
+
+<body>
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+
+  <div class="container">
+    <a href="#" class="navbar-brand waves-effect">
+      <img src="img/core-img/logo.png" alt="Logo" width="65" height="65">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <ul class="navbar-nav mr-auto">
+
+        <li class="nav-item">
+          <a href="#" class="nav-link waves-effect" title="Home">Home</a>
+        </li>
+
+        <li class="nav-item active">
+          <a href="#" class="nav-link waves-effect" title="Portfolio">Portfolio</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link waves-effect" title="About">About</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link waves-effect" title="Contact">Contact</a>
+        </li>
+
+    </ul>
+  </div>
+  
+    <ul class="navbar-nav nav-flex-icons">
+
+      <li class="nav-item">
+        <a href="https://www.instagram.com/_hyperactive_panda/?hl=ru" class="nav-link waves-effect" title="Instagram">
+          <i class="fa fa-instagram"></i>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#" class="nav-link waves-effect" title="Twitter">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#" class="nav-link waves-effect" title="Facebook">
+          <i class="fa fa-facebook"></i>
+        </a>
+      </li>
+
+    </ul>
+  </div>
+
+</nav>
+
+
+<div class="container-fluid p-0 wow fadeIn">
+    <div class="title d-flex to-bottom" style="background-color: #111">
+        <h1>Hyperactive<br/>Panda</h1>
+    </div>
+</div>
+
+<section class="portfolio mt-5 wow slideInLeft">
+    <h4>MY PROJECT</h4>
+    <div class="toggles mb-3">
+        <button id="all" class="mt-2">ALL</button> /
+        <button id="logo" class="mt-2">LOGO</button> /
+        <button id="businesscards" class="mt-2">BUSINESS CARDS</button> /
+        <button id="branding" class="mt-2">BRANDING</button> /
+        <button id="different" class="mt-2">DIFFERENT</button>
+    </div>
+
+    <div class="posts mt-5 wow zoomInUp">
+            
+            <div class="post different m-4">
+                <div class="pop">
+                    <img src="img/bg-img/1.jpg" class="img-fluid z-depth-3" alt="oculus go">
+                    <div class="block">
+                        <h2>Oculus Go</h2>
+                        <p>Different</p> 
+                    </div>
+                </div>
+        </div>
+            <div class="post branding m-4">
+                <div class="pop">
+                    <img src="img/bg-img/5.jpg" class="img-fluid z-depth-3" alt="brand book">
+                    <div class="block">
+                            <h2>Brand book</h2>
+                            <p>Branding</p> 
+                    </div>
+                </div>
+            </div>
+            <div class="post branding m-4">
+                <div class="pop">
+                    <img src="img/bg-img/2.jpg" class="img-fluid z-depth-3" alt="branding style">
+                    <div class="block">
+                            <h2>Branding style</h2>
+                            <p>Branding</p> 
+                    </div>
+                </div>
+            </div>
+            <div class="post logo m-4">
+                <div class="pop">
+                    <img src="img/bg-img/3.jpg" class="img-fluid z-depth-3" alt="bstu">
+                    <div class="block">
+                            <h2>BSTU</h2>
+                            <p>Logo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="post logo m-4">
+                <div class="pop">
+                    <img src="img/bg-img/4.jpg" class="img-fluid z-depth-3" alt="bstu">
+                    <div class="block">
+                            <h2>BSTU</h2>
+                            <p>Logo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="post businesscards m-4">
+                <div class="pop">
+                    <img src="img/bg-img/6.jpg" class="img-fluid z-depth-3" alt="hyperactive panda">
+                    <div class="block">
+                            <h2>Hyperactive Panda</h2>
+                            <p>Business Cards</p>   
+                    </div>
+                </div>
+            </div>
+            <div class="post logo m-4">
+                <div class="pop">
+                    <img src="img/bg-img/7.jpg" class="img-fluid z-depth-3" alt="scope">
+                    <div class="block">
+                            <h2>SCOPE</h2>
+                            <p>Logo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="post businesscards m-4">
+                <div class="pop">
+                    <img src="img/bg-img/12.jpg" class="img-fluid z-depth-3" alt="hyperactive panda">
+                    <div class="block">
+                            <h2>Hyperactive Panda</h2>
+                            <p>Business Cards</p> 
+                    </div>
+                </div>
+            </div>
+            <div class="post logo m-4">
+                <div class="pop">    
+                    <img src="img/bg-img/10.jpg" class="img-fluid z-depth-3" alt="hyperactive panda">
+                    <div class="block">
+                            <h2>Hyperactive Panda</h2>
+                            <p>Logo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="post different m-4">
+                <div class="pop"> 
+                    <img src="img/bg-img/11.jpg" class="img-fluid z-depth-3" alt="cover">
+                    <div class="block">
+                            <h2>Cover</h2>
+                            <p>Different</p> 
+                    </div>
+                </div>
+            </div>
+            <div class="post different m-4">
+                <div class="pop"> 
+                    <img src="img/bg-img/13.jpg" class="img-fluid z-depth-3" alt="menu">
+                    <div class="block">
+                            <h2>Menu</h2>
+                            <p>Different</p> 
+                    </div>
+                </div>
+            </div>
+            <div class="post different m-4">
+                <div class="pop"> 
+                    <img src="img/bg-img/15.jpg" class="img-fluid z-depth-3" alt="stickers">
+                    <div class="block">
+                            <h2>Stickers</h2>
+                            <p>Different</p> 
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+
+<footer class="page-footer text-center font-small mt-4 wow fadeIn">
+
+        <div class="pt-2">
+          <a href="#" role="button" class="btn btn-outline-white waves-effect"><img src="img/core-img/logo.png" alt="Logo" width="40" height="40"></a>
+        </div>
+      
+        <hr class="my-3">
+      
+        <div class="pb-2">
+      
+          <a href="#" class="waves-effect" title="Instagram">
+            <i class="fa fa-instagram mr-3"></i>
+          </a>
+      
+          <a href="#" class="waves-effect" title="Twitter">
+            <i class="fa fa-twitter mr-3"></i>
+          </a>
+      
+          <a href="#" class="waves-effect" title="Facebook">
+            <i class="fa fa-facebook mr-3"></i>
+          </a>
+      
+          <a href="#" class="waves-effect" title="Google+">
+              <i class="fa fa-google-plus mr-3"></i>
+            </a>
+        
+          <a href="#" class="waves-effect" title="Youtube">
+            <i class="fa fa-youtube mr-3"></i>
+          </a>
+        
+          <a href="#" class="waves-effect" title="Pinterest">
+            <i class="fa fa-pinterest mr-3"></i>
+          </a>
+      
+        </div>
+      
+        <div class="footer-copyright py-1">
+          &copy; Hyperactive Panda
+        </div>
+      
+      </footer>
+
+
+
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+
+  
+  <script src="js/script.js" type="text/javascript"></script>
+  <script src="js/js/jquery.waitforimages.js" type="text/javascript"></script>   
+  <script src="js/js/jquery.jkit.1.2.16.min.js"></script>
+
+  
+  <script> 
+    new WOW().init();
+  </script>
+
+</body>
+
+</html>
