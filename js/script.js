@@ -13,11 +13,7 @@ $(function(){
 		waitForAll:false
 	});
 
-
-   
-
     function sidebarhero() {
-
         if($("#hero").length) {
           var fadeStart=100,fadeUntil=800,fading = $('#hero');
       
@@ -57,8 +53,13 @@ $(function(){
         $('.post').show(500);
     });
 
-   
-
+    $(function() {
+        $('.scrollup').click(function() {
+            $("html, body").animate({
+            scrollTop:0
+            },1000);
+        })
+        });
 
 
 })

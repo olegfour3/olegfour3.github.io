@@ -71,9 +71,29 @@
 	background-color: gray;
 }
 
+.title h1{
+	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+}
+.project h1{
+	background-image: url(https://media.giphy.com/media/l1KXtGiWieAhji91u/giphy.gif);
+}
 
+.title h1,
+.project h1{
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 135px;
+	line-height: .8;
+	margin: 0px 0;
+	margin-top: 3%;
+	overflow: hidden;
+}
 
-.title {
+.title,
+.project{
 	font-family: "Montserrat";
 	text-align: center;
 	color: #FFF;
@@ -92,19 +112,6 @@
 	        justify-content: center;
 	height: 42vh;
 	letter-spacing: 1px;
-}
-
-.title h1 {
-	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
-	background-size: cover;
-	color: transparent;
-	-moz-background-clip: text;
-	-webkit-background-clip: text;
-	text-transform: uppercase;
-	font-size: 135px;
-	line-height: .8;
-	margin: 0px 0;
-	margin-top: 3%;
 }
 
 .portfolio{
@@ -144,11 +151,14 @@
     bottom:0;
     right:0;
     top:0;
-    background:rgba(255,255,255, 0.7);
+    background:rgba(255,255,255, 0.5);
     padding:5px;
-	display:none;
+	opacity: 0;
 	position: absolute;
 	overflow: hidden;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
 }
 .block h2{
 	margin-top: 25%;
@@ -158,7 +168,7 @@
 	font-size: 150%;
 }
 .pop:hover .block{
-	display:block;
+	opacity: 1;
 }
 .post{
 	position: relative;
@@ -168,3 +178,11 @@
 	overflow: hidden;
 	position: relative;
 }
+#project{
+	width: 80%;
+}
+
+
+
+
+
