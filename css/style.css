@@ -174,12 +174,13 @@
 	position: relative;
 }
 
-.title{
+.title,
+.project{
 	overflow: hidden;
 	position: relative;
 }
 #project{
-	width: 80%;
+	width: 100%;
 }
 
 
