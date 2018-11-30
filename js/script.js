@@ -59,7 +59,13 @@ $(function(){
             scrollTop:0
             },1000);
         })
-        });
+    });
 
+    $(".resizing").magnificPopup({
+        type : 'image',
+        gallery : {
+            enabled : true
+        }
+    });
 
 })
