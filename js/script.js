@@ -1,11 +1,12 @@
 $(function(){
 
+    /*Слайдер*/
     $('#carousel-ex').carousel({
         ride: 'carousel',
         interval: 3000,
         pause: false
         });
-
+    
     $('body').waitForImages({
 		finished: function() {
 				$('body').jKit();
@@ -13,6 +14,7 @@ $(function(){
 		waitForAll:false
 	});
 
+    /*Параллакс эффект*/
     function sidebarhero() {
         if($("#hero").length) {
           var fadeStart=100,fadeUntil=800,fading = $('#hero');
@@ -31,6 +33,7 @@ $(function(){
         } 
       }
 
+
       function Masonry() {
         var $container = $('.posts');
       
@@ -39,8 +42,9 @@ $(function(){
             itemSelector : 'li'
           });
         });
- }
+    }
 
+    /*Фильтр в портфолио*/
     $('.toggles button').click(function(){
       var get_id= this.id; 
       var get_current = $('.posts .' + get_id);
@@ -53,6 +57,7 @@ $(function(){
         $('.post').show(500);
     });
 
+    /*Кнопка вврех*/
     $(function() {
         $('.scrollup').click(function() {
             $("html, body").animate({
@@ -61,6 +66,7 @@ $(function(){
         })
     });
 
+    /*Галерея изображений*/
     $(".resizing").magnificPopup({
         type : 'image',
         gallery : {
