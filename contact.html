@@ -184,20 +184,23 @@
                         </div>
 
                         <!--Grid row-->
-                        <div class="row mt-2 m-1">
+                        <div class="row">
+
+                            <!--Grid column-->
                             <div class="col-md-12">
-                                <div class="md-group">
-                                    <label for="message" class="wow fadeInDown">Your message</label>
-                                    <textarea class="form-control wow fadeInUp" name="message" id="message" rows="7"></textarea>
+        
+                                <div class="md-form">
+                                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                    <label for="message">Your message</label>
                                 </div>
                             </div>
-                        </div>   
+                        </div> 
 
                         <!--Grid row-->
                     </form>
 
                     <div class="mt-4 wow fadeInDown" >
-                        <a class="btn z-depth-3 waves-effect" title="Send" onclick="validateForm()">Send</a>
+                        <a class="btn btn-elegant z-depth-3 waves-effect" title="Send" onclick="validateForm()">Send</a>
                     </div> <div class="status" id="status"></div>
                 </div>
                 <!--Grid column-->
