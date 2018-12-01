@@ -67,11 +67,15 @@ $(function(){
     });
 
     /*Галерея изображений*/
-    $(".resizing").magnificPopup({
-        type : 'image',
-        gallery : {
-            enabled : true
-        }
+    $(function() {
+        $('.resizing').magnificPopup({
+            type : 'image',
+            gallery : {
+                enabled : true
+            }
+        })
     });
 
+    /*Отправка сообщений с Contact*/
+    
 })

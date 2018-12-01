@@ -18,6 +18,7 @@
   <link href="css/mdb.min.css" rel="stylesheet">
   <!-- Your custom styles (optional) -->
   <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="libs/magnific-popup.css">
 
   <style>
 
@@ -53,6 +54,12 @@
       }
       footer{
         max-height: 100%;
+      }
+      h1{
+        font-size: 140%;
+        }
+      .maintext{
+        font-size: 120%;
       }
     }
 
@@ -100,7 +107,7 @@
         </li>
 
         <li class="nav-item">
-          <a href="#" class="nav-link waves-effect" title="Contact">Contact</a>
+          <a href="contact.html" class="nav-link waves-effect" title="Contact">Contact</a>
         </li>
 
     </ul>
@@ -132,7 +139,7 @@
 </nav>
 
 
-<div id="carousel-ex" class="carousel slide carousel-fade mask rgba-black-strong wow fadeIn" data-ride="carousel">
+<div id="carousel-ex" class="carousel slide carousel-fade mask rgba-black-strong wow fadeInDown" data-ride="carousel">
 
   <ol class="carousel-indicators">
     <li class="active" data-target="#carousel-ex" data-slide-to="0"></li>
@@ -212,14 +219,14 @@
 
     <div class="row wow justify-content-center">
 
-      <div class="col-md-4 p-4  wow fadeInLeft">
-          <h1>Sed, earum!</h1>
-          <p class="text-left maintext">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+      <div class="col-md-4 p-4 text-center">
+          <h1 class="wow fadeInLeft">Sed, earum!</h1>
+          <p class=" maintext wow fadeInUpBig">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Deleniti, enim!Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, enim!
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, enim!
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, enim!
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, enim!</p>
-          <p class="text-left maintext">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          <p class="maintext wow fadeInRight">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Deleniti, enim!Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, enim!
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, enim!
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, enim!
@@ -310,6 +317,7 @@
   <script src="js/script.js"></script>
   <script src="js/js/jquery.waitforimages.js"></script>   
   <script src="js/js/jquery.jkit.1.2.16.min.js"></script>
+  <script src="libs/jquery.magnific-popup.min.js"> </script>
   
   <script> 
     new WOW().init();
