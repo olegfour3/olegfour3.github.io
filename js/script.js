@@ -68,17 +68,9 @@ $(function(){
     /*Скрытие меню*/
     $(document).ready(function() {
         $("nav.fixed-top").autoHidingNavbar();
-        $('.navbar-fixed').autoHidingNavbar('setDisableAutohide', true);
-        $('.navbar-fixed').autoHidingNavbar('hide');
-
-        $(document).on('scroll', function() {
-        if ($(window).scrollTop() >= 600) {
-        $('.navbar-fixed').autoHidingNavbar('show');
-        }
-        else {
-        $('.navbar-fixed').autoHidingNavbar('hide');
-        }
-        })
+        $('nav').autoHidingNavbar('setAnimationDuration', 400);
+        $('nav').autoHidingNavbar('setShowOnBottom', false);
+                     
     });
     
     // var mywindow = $(window);
