@@ -77,9 +77,13 @@
 .project h1{
 	background-image: url(https://media.giphy.com/media/l1KXtGiWieAhji91u/giphy.gif);
 }
+.project_ball h1{
+	background-image: url(https://media.giphy.com/media/r5E0uV2Facm2c/giphy.gif);
+}
 
 .title h1,
-.project h1{
+.project h1,
+.project_ball h1{
 	background-size: cover;
 	color: transparent;
 	-moz-background-clip: text;
@@ -94,7 +98,8 @@
 }
 
 .title,
-.project{
+.project,
+.project_ball{
 	font-family: "Montserrat";
 	text-align: center;
 	color: #FFF;
@@ -113,6 +118,17 @@
 	        justify-content: center;
 	height: 42vh;
 	letter-spacing: 1px;
+}
+
+.title,
+.project,
+.project_ball{
+	overflow: hidden;
+	position: relative;
+}
+
+#project_ball{
+	width: 100%;
 }
 
 .portfolio{
@@ -175,11 +191,6 @@
 	position: relative;
 }
 
-.title,
-.project{
-	overflow: hidden;
-	position: relative;
-}
 #project{
 	width: 100%;
 }

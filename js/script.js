@@ -33,17 +33,6 @@ $(function(){
         } 
       }
 
-
-      function Masonry() {
-        var $container = $('.posts');
-      
-        $container.imagesLoaded( function(){
-          $container.masonry({
-            itemSelector : 'li'
-          });
-        });
-    }
-
     /*Фильтр в портфолио*/
     $('.toggles button').click(function(){
       var get_id= this.id; 
@@ -76,20 +65,36 @@ $(function(){
         })
     });
 
-    var mywindow = $(window);
-    var mypos = mywindow.scrollTop();
-    var up = false;
-    var newscroll;
-    mywindow.scroll(function () {
-        newscroll = mywindow.scrollTop();
-        if (newscroll > mypos && !up) {
-            $('.navbar').stop().slideToggle();
-            up = !up;
-            console.log(up);
-        } else if(newscroll < mypos && up) {
-            $('.navbar').stop().slideToggle();
-            up = !up;
+    /*Скрытие меню*/
+    $(document).ready(function() {
+        $("nav.fixed-top").autoHidingNavbar();
+        $('.navbar-fixed').autoHidingNavbar('setDisableAutohide', true);
+        $('.navbar-fixed').autoHidingNavbar('hide');
+
+        $(document).on('scroll', function() {
+        if ($(window).scrollTop() >= 600) {
+        $('.navbar-fixed').autoHidingNavbar('show');
         }
-        mypos = newscroll;
+        else {
+        $('.navbar-fixed').autoHidingNavbar('hide');
+        }
+        })
     });
+    
+    // var mywindow = $(window);
+    // var mypos = mywindow.scrollTop();
+    // var up = false;
+    // var newscroll;
+    // mywindow.scroll(function () {
+    //     newscroll = mywindow.scrollTop();
+    //     if (newscroll > mypos && !up) {
+    //         $('.navbar').stop().slideToggle();
+    //         up = !up;
+    //         console.log(up);
+    //     } else if(newscroll < mypos && up) {
+    //         $('.navbar').stop().slideToggle();
+    //         up = !up;
+    //     }
+    //     mypos = newscroll;
+    // });
 })
