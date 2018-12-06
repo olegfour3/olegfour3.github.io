@@ -1,5 +1,4 @@
 
-
  html, 
  body,
  .view{
@@ -80,10 +79,14 @@
 .project_ball h1{
 	background-image: url(https://media.giphy.com/media/r5E0uV2Facm2c/giphy.gif);
 }
+.project_gradient h1{
+	background-image: url(https://media.giphy.com/media/yi8yRNcWi8U8g/giphy.gif);
+}
 
 .title h1,
 .project h1,
-.project_ball h1{
+.project_ball h1,
+.project_gradient h1{
 	background-size: cover;
 	color: transparent;
 	-moz-background-clip: text;
@@ -99,7 +102,8 @@
 
 .title,
 .project,
-.project_ball{
+.project_ball,
+.project_gradient{
 	font-family: "Montserrat";
 	text-align: center;
 	color: #FFF;
@@ -122,12 +126,17 @@
 
 .title,
 .project,
-.project_ball{
+.project_ball,
+.project_gradient{
 	overflow: hidden;
 	position: relative;
 }
 
 #project_ball{
+	width: 100%;
+}
+
+#project_gradient{
 	width: 100%;
 }
 
