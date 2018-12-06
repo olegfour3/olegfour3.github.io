@@ -1,4 +1,5 @@
 
+
  html, 
  body,
  .view{
@@ -70,17 +71,20 @@
 	background-color: gray;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 .title h1{
-	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	background-image: url('https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif');
 }
 .project h1{
-	background-image: url(https://media.giphy.com/media/l1KXtGiWieAhji91u/giphy.gif);
+	background-image: url('https://media.giphy.com/media/l1KXtGiWieAhji91u/giphy.gif');
 }
 .project_ball h1{
-	background-image: url(https://media.giphy.com/media/r5E0uV2Facm2c/giphy.gif);
+	background-image: url('https://media.giphy.com/media/r5E0uV2Facm2c/giphy.gif');
 }
 .project_gradient h1{
-	background-image: url(https://media.giphy.com/media/yi8yRNcWi8U8g/giphy.gif);
+	background-image: url('../img/core-img/grad.gif'); 
+	/* background-image: url(https://media.giphy.com/media/yi8yRNcWi8U8g/giphy.gif); */
 }
 
 .title h1,
@@ -89,9 +93,9 @@
 .project_gradient h1{
 	background-size: cover;
 	color: transparent;
+	background-clip: text;
 	-moz-background-clip: text;
 	-webkit-background-clip: text;
-	background-clip: text;
 	text-transform: uppercase;
 	font-size: 135px;
 	line-height: .8;
@@ -124,6 +128,7 @@
 	letter-spacing: 1px;
 }
 
+
 .title,
 .project,
 .project_ball,
@@ -132,13 +137,6 @@
 	position: relative;
 }
 
-#project_ball{
-	width: 100%;
-}
-
-#project_gradient{
-	width: 100%;
-}
 
 .portfolio{
 	width: 90%;
