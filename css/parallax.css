@@ -1,0 +1,24 @@
+.parallax{
+	margin-left: 10%;
+	height: 100%;
+	width: 100%;
+	margin-bottom: 5%;
+	overflow: hidden;
+}
+
+.parallax-option{
+	position:absolute; 
+	width:75%; 
+	height:85%;
+  }
+
+.parallax-item-1{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+.parallax-item-2{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
