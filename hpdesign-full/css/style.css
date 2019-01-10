@@ -1,0 +1,76 @@
+.portfolio{
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+.portfolio h4{
+	font-size: 200%;
+	font-weight: bold;
+	color: #111;
+}
+
+.toggles button{
+	background: white;
+	border: none;
+	cursor: pointer;
+	font-size: 110%;
+	margin: 0 auto;
+}
+.pop img{
+	height: 100%;
+	width: 100%;
+}
+
+.posts{
+	overflow: hidden;
+	align-items: center;
+	width: 90%;
+	display: grid;
+	margin: 0 auto;
+	grid-template-columns: auto auto auto;
+}
+
+.block{
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    background:rgba(255,255,255, 0.5);
+    padding:5px;
+	opacity: 0;
+	position: absolute;
+	overflow: hidden;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+}
+.block h2{
+	margin-top: 25%;
+	text-align: center;
+}
+.block p{
+	font-size: 150%;
+}
+.pop:hover .block{
+	opacity: 1;
+}
+.post{
+	position: relative;
+}
+
+#project{
+	width: 100%;
+}
+h2.intro{
+	font-size: 500%;
+}
+.wrapper{
+	min-height: 15vh;
+}
+.contact-icons{
+	justify-content: center;
+	align-items: center;
+	justify-items: center;
+}
+
+

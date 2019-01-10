@@ -1,0 +1,27 @@
+html, 
+body{
+    height: 100%;
+}
+
+@media (max-width: 776px){
+	.navbar:not(.top-nav-collapse){
+		background-color: grey;
+		background:rgba(0,0,0,0.5)
+	}
+}
+
+.top-nav-collapse{
+	background-color: grey;
+	background:rgba(0,0,0,0.5)
+}
+
+.maintext{
+	font-size: 140%;
+}
+
+.container{
+	overflow: hidden;
+}
+.page-footer{
+	background-color: gray;
+}

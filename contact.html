@@ -27,14 +27,14 @@
     
     @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-    @media (max-width: 1340px){
+    @media (max-width: 1920px){
         .title h1{
-            font-size: 700%;
+            font-size: 550%;
         }
     }
     @media (min-width: 649px) and (max-width: 990px){
         .title h1{
-            font-size: 500%;
+            font-size: 450%;
         }
         h2.intro{
             font-size: 350%;
@@ -63,23 +63,6 @@
 
 
 <body>
-
-    <!-- Yandex.Metrika counter -->
-<script>
-    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-  
-    ym(51472762, "init", {
-         id:51472762,
-         clickmap:true,
-         trackLinks:true,
-         accurateTrackBounce:true,
-         webvisor:true
-    });
-  </script>
-  <noscript><div><img src="https://mc.yandex.ru/watch/51472762" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-  <!-- /Yandex.Metrika counter -->
   
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar wow fadeInUpBig">
@@ -154,81 +137,23 @@
 
             <hr class="hr-dark ml-5 mr-5 wow fadeInLeftBig">
 
-            <p class="section-description maintext wow fadeInUpBig">For job enquiries, commissions or simple a nice note please use the form to the bottom!</p>
+            <p class="section-description maintext wow fadeInUpBig">For job enquiries, commissions or simple a nice note please use the information to the bottom!</p>
 
-            <div class="row">
-
-                <div class="col-md-12 m-2">
-                    <form id ="contact-form" name="contact-form" action="mail.php" method="POST"  onsubmit="return validateForm()" >
-
-                        <div class="row">
-
-                            <div class="col-md-6 wow fadeInLeft">
-                                <div class="md-form">
-                                    <div class="md-form">
-                                        <input type="text" id="name" name="name" class="form-control">
-                                        <label for="name" class="">Your name</label>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6 wow fadeInRight">
-                                <div class="md-form">
-                                    <div class="md-form">
-                                        <input type="text" id="email" name="email" class="form-control">
-                                        <label for="email" class="">Your email</label>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="row">
-
-                            <div class="col-md-12 wow rotateInUpLeft">
-                                <div class="md-form">
-                                    <input type="text" id="subject" name="subject" class="form-control">
-                                    <label for="subject" class="">Subject</label>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="row">
-
-                            <div class="col-md-12">
+            <div class="row pt-2 m-1 justify-content-center align-items-center">
+                    <div class="col-md-5">
+                            <ul class="contact-icons pl-0 align-middle" style="list-style-type: none;">
+                                <li><i class="fa fa-phone fa-2x wow fadeInLeft"></i>
+                                    <p class="wow fadeInRight">+375 (33) 901-44-21</p>
+                                </li>
         
-                                <div class="md-form wow fadeInUpBig">
-                                    <textarea id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                                    <label for="message">Your message</label>
-                                </div>
-                            </div>
-
-                        </div> 
-
-                    </form>
-
-                    <div class="mt-4 wow fadeInDown" >
-                        <a class="btn btn-elegant z-depth-3 waves-effect" title="Send" onclick="validateForm()">Send</a>
-                    </div> <div class="status" id="status"></div>
+                                <li><i class="fa fa-envelope fa-2x wow fadeInLeft"></i>
+                                    <p class="wow fadeInLeft">hyperactivepanda.2000@gmail.com</p>
+                                </li>
+                            </ul>
                 </div>
-
-            </div>
-
-            <div class="row">
-
-                <div class="col-md-12 col-sm-12 mt-4 pl-0 pr-0">
-                    <ul class="contact-icons pl-0" style="list-style-type: none;">
-                        <li><i class="fa fa-phone fa-2x wow fadeInLeft"></i>
-                            <p class="wow fadeInRight">+375 (33) 901-44-21</p>
-                        </li>
-
-                        <li><i class="fa fa-envelope fa-2x wow fadeInLeft"></i>
-                            <p class="wow fadeInLeft">hyperactivepanda.2000@gmail.com</p>
-                        </li>
-                    </ul>
+                <div class="col">
+                        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A68dc3d977c91aea04737e5af7918e4577f74575ee5e47df5362bedc0674247b5&amp;width=100%25&amp;height=396&amp;lang=ru_RU&amp;scroll=true"></script>
                 </div>
-
             </div>
 
         </section>
@@ -278,7 +203,7 @@
     </div>
   
     <div class="footer-copyright py-1">
-      Hyperactive Panda &copy; 2018
+      Hyperactive Panda &copy; 2019
     </div>
   
   </footer>
